@@ -29,6 +29,21 @@ export const ar = {
       whatsapp: "واتساب"
     }
   },
+  dashboard: {
+    title: "نظرة عامة على لوحة التحكم",
+    supportBot: "روبوت الدعم",
+    processing247: "معالجة 24/7",
+    active: "نشط",
+    queries: "432 استعلام",
+    documentProcessor: "معالج المستندات",
+    autoGeneratingReports: "توليد تلقائي للتقارير",
+    running: "قيد التشغيل",
+    docs: "128 مستند",
+    syncEngine: "محرك المزامنة",
+    realTimeIntegration: "تكامل في الوقت الفعلي",
+    synced: "تمت المزامنة",
+    uptime: "وقت تشغيل 99.9%"
+  },
 
   whatWeOffer: {
     title: "ما نقدمه",

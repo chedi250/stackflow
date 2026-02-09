@@ -29,6 +29,21 @@ export const en = {
       whatsapp: "WhatsApp Us"
     }
   },
+  dashboard: {
+    title: "Dashboard Overview",
+    supportBot: "Support Bot",
+    processing247: "Processing 24/7",
+    active: "Active",
+    queries: "432 queries",
+    documentProcessor: "Document Processor",
+    autoGeneratingReports: "Auto-generating reports",
+    running: "Running",
+    docs: "128 docs",
+    syncEngine: "Sync Engine",
+    realTimeIntegration: "Real-time integration",
+    synced: "Synced",
+    uptime: "99.9% uptime"
+  },
 
   whatWeOffer: {
     title: "What We Offer",

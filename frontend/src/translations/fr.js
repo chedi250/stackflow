@@ -29,6 +29,21 @@ export const fr = {
       whatsapp: "WhatsApp"
     }
   },
+  dashboard: {
+    title: "Aperçu du Tableau de Bord",
+    supportBot: "Bot de Support",
+    processing247: "Traitement 24/7",
+    active: "Actif",
+    queries: "432 requêtes",
+    documentProcessor: "Processeur de Documents",
+    autoGeneratingReports: "Génération auto de rapports",
+    running: "En cours",
+    docs: "128 docs",
+    syncEngine: "Moteur de Synchro",
+    realTimeIntegration: "Intégration temps réel",
+    synced: "Synchronisé",
+    uptime: "99.9% de disponibilité"
+  },
 
   whatWeOffer: {
     title: "Ce Que Nous Offrons",
