@@ -1,0 +1,235 @@
+{
+  "categories": {
+    "sante": {
+      "name": "Santé",
+      "icon": "fas fa-heartbeat",
+      "color": "red"
+    },
+    "education": {
+      "name": "Éducation",
+      "icon": "fas fa-graduation-cap",
+      "color": "blue"
+    },
+    "business": {
+      "name": "Business",
+      "icon": "fas fa-briefcase",
+      "color": "green"
+    },
+    "commerce": {
+      "name": "Commerce",
+      "icon": "fas fa-shopping-cart",
+      "color": "purple"
+    },
+    "marketing": {
+      "name": "Marketing",
+      "icon": "fas fa-bullhorn",
+      "color": "orange"
+    }
+  },
+  "tools": [
+    {
+      "id": "customer-support-ai",
+      "slug": "customer-support-ai",
+      "name": "Customer Support AI",
+      "category": "business",
+      "type": "Agent IA",
+      "usage": ["WhatsApp", "Email", "Chat"],
+      "price": "$2,999",
+      "description": "AI-powered chatbots and ticket management system that handles customer inquiries 24/7 with intelligent routing and response automation.",
+      "features": [
+        "24/7 AI Chat Support",
+        "Intelligent Ticket Routing",
+        "Multi-language Support",
+        "Analytics Dashboard"
+      ],
+      "demoVideo": "https://example.com/demo1",
+      "aiModel": "GPT-4",
+      "useCases": [
+        "Handle customer inquiries automatically",
+        "Route complex issues to human agents",
+        "Provide instant responses in multiple languages",
+        "Generate support analytics and insights"
+      ],
+      "integrations": ["WhatsApp", "Slack", "Email", "Zendesk", "Intercom"],
+      "freemiumLimits": {
+        "dailyRequests": 15,
+        "model": "Claude Instant"
+      },
+      "premiumFeatures": {
+        "unlimitedRequests": true,
+        "advancedModels": ["GPT-4", "Claude 3 Opus"],
+        "customIntegrations": true
+      }
+    },
+    {
+      "id": "document-automation",
+      "slug": "document-automation",
+      "name": "Document Automation Suite",
+      "category": "business",
+      "type": "Automatisation",
+      "usage": ["Google Sheets", "PDF", "Email"],
+      "price": "$3,499",
+      "description": "Streamline document workflows with AI-powered processing, automated approvals, and intelligent document generation from templates.",
+      "features": [
+        "AI Document Processing",
+        "Template Generation",
+        "Approval Workflows",
+        "Digital Signatures"
+      ],
+      "demoVideo": "https://example.com/demo2",
+      "aiModel": "GPT-4",
+      "useCases": [
+        "Automatically process invoices and contracts",
+        "Generate documents from templates",
+        "Route documents for approval",
+        "Extract data from PDFs and forms"
+      ],
+      "integrations": ["Google Drive", "Dropbox", "DocuSign", "Adobe Sign", "SharePoint"],
+      "freemiumLimits": {
+        "dailyRequests": 10,
+        "model": "Mistral 7B"
+      },
+      "premiumFeatures": {
+        "unlimitedRequests": true,
+        "advancedModels": ["GPT-4", "Claude 3 Opus"],
+        "customTemplates": true
+      }
+    },
+    {
+      "id": "medical-assistant",
+      "slug": "medical-assistant",
+      "name": "Medical Assistant AI",
+      "category": "sante",
+      "type": "Agent IA",
+      "usage": ["WhatsApp", "Web Portal"],
+      "price": "$4,999",
+      "description": "AI assistant for healthcare professionals to help with patient scheduling, medical record management, and basic health inquiries.",
+      "features": [
+        "Patient Scheduling",
+        "Medical Record Processing",
+        "Health Inquiry Responses",
+        "Appointment Reminders"
+      ],
+      "demoVideo": "https://example.com/demo3",
+      "aiModel": "Claude 3",
+      "useCases": [
+        "Schedule patient appointments automatically",
+        "Process and organize medical records",
+        "Answer basic health questions",
+        "Send appointment reminders"
+      ],
+      "integrations": ["EMR Systems", "Calendar Apps", "SMS", "Email"],
+      "freemiumLimits": {
+        "dailyRequests": 20,
+        "model": "Claude Instant"
+      },
+      "premiumFeatures": {
+        "unlimitedRequests": true,
+        "advancedModels": ["Claude 3 Opus", "GPT-4"],
+        "hipaaCompliance": true
+      }
+    },
+    {
+      "id": "education-tutor",
+      "slug": "education-tutor",
+      "name": "AI Education Tutor",
+      "category": "education",
+      "type": "Agent IA",
+      "usage": ["Web Portal", "Mobile App"],
+      "price": "$1,999",
+      "description": "Personalized AI tutor that helps students with homework, explanations, and learning progress tracking.",
+      "features": [
+        "Personalized Learning",
+        "Homework Assistance",
+        "Progress Tracking",
+        "Multi-subject Support"
+      ],
+      "demoVideo": "https://example.com/demo4",
+      "aiModel": "GPT-4",
+      "useCases": [
+        "Help students with homework questions",
+        "Provide personalized learning paths",
+        "Track student progress",
+        "Generate practice exercises"
+      ],
+      "integrations": ["Google Classroom", "Canvas", "Moodle", "Zoom"],
+      "freemiumLimits": {
+        "dailyRequests": 25,
+        "model": "GPT-3.5"
+      },
+      "premiumFeatures": {
+        "unlimitedRequests": true,
+        "advancedModels": ["GPT-4", "Claude 3"],
+        "customCurriculum": true
+      }
+    },
+    {
+      "id": "ecommerce-optimizer",
+      "slug": "ecommerce-optimizer",
+      "name": "E-commerce Optimizer",
+      "category": "commerce",
+      "type": "Automatisation",
+      "usage": ["Shopify", "WooCommerce", "API"],
+      "price": "$3,999",
+      "description": "Optimize your e-commerce operations with AI-powered inventory management, pricing optimization, and customer behavior analysis.",
+      "features": [
+        "Inventory Management",
+        "Dynamic Pricing",
+        "Customer Analytics",
+        "Sales Forecasting"
+      ],
+      "demoVideo": "https://example.com/demo5",
+      "aiModel": "GPT-4",
+      "useCases": [
+        "Automatically adjust product prices",
+        "Manage inventory levels",
+        "Analyze customer behavior",
+        "Forecast sales trends"
+      ],
+      "integrations": ["Shopify", "WooCommerce", "Amazon", "eBay", "Google Analytics"],
+      "freemiumLimits": {
+        "dailyRequests": 12,
+        "model": "Claude Instant"
+      },
+      "premiumFeatures": {
+        "unlimitedRequests": true,
+        "advancedModels": ["GPT-4", "Claude 3 Opus"],
+        "customReports": true
+      }
+    },
+    {
+      "id": "marketing-automator",
+      "slug": "marketing-automator",
+      "name": "Marketing Automator",
+      "category": "marketing",
+      "type": "Automatisation",
+      "usage": ["Email", "Social Media", "Analytics"],
+      "price": "$2,799",
+      "description": "Automate your marketing campaigns with AI-generated content, social media scheduling, and performance analytics.",
+      "features": [
+        "Content Generation",
+        "Social Media Scheduling",
+        "Email Campaigns",
+        "Performance Analytics"
+      ],
+      "demoVideo": "https://example.com/demo6",
+      "aiModel": "GPT-4",
+      "useCases": [
+        "Generate marketing content automatically",
+        "Schedule social media posts",
+        "Create email campaigns",
+        "Analyze campaign performance"
+      ],
+      "integrations": ["Facebook", "Instagram", "Twitter", "LinkedIn", "Mailchimp"],
+      "freemiumLimits": {
+        "dailyRequests": 18,
+        "model": "GPT-3.5"
+      },
+      "premiumFeatures": {
+        "unlimitedRequests": true,
+        "advancedModels": ["GPT-4", "Claude 3"],
+        "customBranding": true
+      }
+    }
+  ]
+}

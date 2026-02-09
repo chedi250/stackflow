@@ -1,0 +1,211 @@
+/* Global header styling */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid #e5e7eb;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+/* Catalog button styling */
+#saas-catalog button {
+  width: 100%;
+  padding: 0.75rem 1rem; /* Consistent padding */
+  font-size: 1rem; /* Consistent font size */
+  min-height: 48px; /* Fixed height for both buttons */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#saas-catalog button.bg-blue-600 {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+#saas-catalog button.bg-blue-600:hover {
+  background-color: #1d4ed8;
+}
+
+#saas-catalog button.border-gray-300 {
+  border: 1px solid #d1d5db;
+  color: #374151;
+  background-color: #ffffff;
+}
+#saas-catalog button.border-gray-300:hover {
+  background-color: #f3f4f6;
+}
+
+/* CTA button styling */
+#custom-need button {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+  font-weight: 500;
+  font-size: 0.875rem;
+  min-width: 280px;
+}
+
+#custom-need button.bg-blue-600 {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+#custom-need button.bg-blue-600:hover {
+  background-color: #1d4ed8;
+}
+
+#custom-need button.bg-white {
+  background-color: #ffffff;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+  font-weight: 500;
+  font-size: 0.875rem;
+  min-width: 280px;
+}
+#custom-need button.bg-white:hover {
+  background-color: #f3f4f6;
+}
+
+/* Hero section button styling */
+#home button {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px; /* Increased to match other buttons */
+}
+
+#home button.bg-blue-600 {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+#home button.bg-blue-600:hover {
+  background-color: #1d4ed8;
+}
+
+#home button.border-green-500 {
+  border: 1px solid #22c55e;
+  color: #22c55e;
+  background-color: transparent;
+}
+#home button.border-green-500:hover {
+  background-color: #ecfdf5;
+}
+
+/* Navigation styling */
+nav {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.nav-link {
+  white-space: nowrap;
+}
+
+/* Section spacing */
+#home {
+  padding-top: 1.5rem;
+  margin-top: 0;
+}
+
+/* Tool card button styling */
+.tool-card button {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  min-height: 48px;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  #custom-need {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  #custom-need button {
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.875rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  #custom-need .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  #home button {
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Mobile menu styling */
+  .mobile-menu {
+    display: block;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .fixed-button {
+    bottom: 15px;
+    right: 15px;
+    padding: 0.6rem 2rem !important;
+    font-size: 1rem !important;
+    min-width: auto !important;
+    width: auto !important;
+    max-width: 90vw !important; /* Responsive max width */
+    white-space: nowrap !important; /* Prevent wrapping on mobile */
+  }
+
+  #saas-catalog button,
+  .tool-card button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    min-height: 40px;
+  }
+}
+
+/* Desktop navigation */
+@media (min-width: 769px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+  }
+}
